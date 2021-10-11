@@ -9,7 +9,7 @@ A NodejS Web application that's let you create, share, duplicate a piece of code
 Give me a Star 🌟
 
 ## Live Preview
-You can find the demo [Here](https://t.me/uptocloudBot)
+You can find the demo [Here](https://shortaurl.xyz/lightbin)
 
 ## Installation
 
