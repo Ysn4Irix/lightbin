@@ -3,4 +3,3 @@ controllers/apiController.js
 routes/api.js
 .env
 package-lock.json
-.gitignore
