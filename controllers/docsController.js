@@ -1,3 +1,11 @@
+/**
+ * @author Ysn4Irix
+ * @email ysn4irix@gmail.com
+ * @create date 10-10-2021
+ * @modify date 11-10-2021
+ * @desc [Documents controller]
+ */
+
 const Doc = require("../models/Docs");
 
 const index = {

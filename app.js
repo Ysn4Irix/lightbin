@@ -1,3 +1,11 @@
+/**
+ * @author Ysn4Irix
+ * @email ysn4irix@gmail.com
+ * @create date 10-10-2021
+ * @modify date 11-10-2021
+ * @desc [Application entry point]
+ */
+
 require("dotenv").config();
 const express = require("express");
 const path = require("path");
