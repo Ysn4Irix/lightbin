@@ -1,0 +1,12 @@
+body {
+    background-color: #282c34;
+    margin: 0;
+}
+
+#msg {
+    color: #d19a66;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
