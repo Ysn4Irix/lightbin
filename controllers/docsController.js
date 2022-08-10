@@ -2,7 +2,7 @@
  * @author Ysn4Irix
  * @email ysn4irix@gmail.com
  * @create date 10-10-2021
- * @modify date 11-10-2021
+ * @modify date 18-10-2021
  * @desc [Documents controller]
  */
 
@@ -31,14 +31,13 @@ Made with ❤️ by Ysn4Irix`;
         alert: "🛑 Nothing to save !!",
       });
     } else {
-      await Doc.create({ value })
-        .then((result) => {
-          res.redirect(`/code/${result.id}`);
-        })
-        .catch((err) => {
-          console.log(err);
-          res.render("new", { title: "Lightbin", value });
-        });
+      try {
+        const result = await Doc.create({ value });
+        res.redirect(`/code/${result.id}`);
+      } catch (err) {
+        console.log(err);
+        res.render("new", { title: "Lightbin", value });
+      }
     }
   },
   getDoc: async (req, res) => {
