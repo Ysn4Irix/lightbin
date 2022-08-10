@@ -14,7 +14,6 @@ const helmet = require("helmet");
 const mongoose = require("mongoose");
 
 const router = require("./routes/docs");
-const api = require("./routes/api");
 const middlewares = require("./helpers/middlewares");
 const app = express();
 
